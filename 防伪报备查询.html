@@ -1,0 +1,186 @@
+
+<!-- saved from url=(0090)http://zxhygl.nmgcpa.org.cn/baoBei/baoBeiscan.action?uuid=28f17f5dd86f4b0f8100d4ed11446971 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>防伪报备查询</title>
+
+
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=no">
+
+<link rel="stylesheet" href="./防伪报备查询_files/layui.css">
+<link rel="stylesheet" href="./防伪报备查询_files/myStyle.css">
+<style>
+.textRed{
+color:#ff0000; 
+}
+.textBlak{
+color:#000;
+}
+th .layui-table-cell {text-align:center;}
+</style>
+<style>
+body {
+	margin: 0px;
+	font-size: 12px;
+}
+
+td,span,div {
+	font-size: 12px;
+	line-height: 25px;
+}
+
+td {
+	margint: 0px;
+	padding: 0px;
+	font-size: 12px;
+}
+</style>
+<link id="layuicss-laydate" rel="stylesheet" href="./防伪报备查询_files/laydate.css" media="all"><link id="layuicss-layer" rel="stylesheet" href="./防伪报备查询_files/layer.css" media="all"><link id="layuicss-skincodecss" rel="stylesheet" href="./防伪报备查询_files/code.css" media="all"></head>
+<body style="">
+	<div id="baoBei">
+		<img src="./防伪报备查询_files/cxxt.jpg" width="100%"> <br>
+		<table>
+			<form id="baoBeiscansearch" name="baoBeiscansearch" action="http://zxhygl.nmgcpa.org.cn/baoBei/baoBeiscansearch.action;jsessionid=12CBA88E27049BE332B0776C1E3F553B" method="post"></form>
+				<tbody><tr>
+					<td style="width:90%;"><input type="text" name="fwbm" value="4b8d20192388075fb" id="baoBeiscansearch_fwbm" class="layui-input" lay-verify="required" autocomplete="off" placeholder="请输入防伪码查询"></td>
+					<td><button class="layui-btn" lay-submit="" lay-filter="search">查询</button></td>
+				</tr>
+			
+
+
+
+		</tbody></table>
+		<table style="width:100%;border:0px;margin:0px;">
+
+			<tbody><tr>
+				<td><br>
+					<div style="font-size:14px;font-weight: bold;text-align: center;">内蒙古自治区注册会计师协会报告防伪报备查询系统</div></td>
+			</tr>
+			<tr>
+				<td>
+					<table style="width:100%;border:0px;margin:5px;">
+						<tbody><tr>
+							<td style="text-align: right;">被审（验）单位：</td>
+							<td>中国铁路呼和浩特局集团有限公司工程管理所</td>
+						</tr>
+						<tr>
+							<td style="text-align: right;">审计类型：</td>
+							<td>建设项目财务决算审计 </td>
+						</tr>
+						<tr>
+							<td style="text-align: right; width:35%;">防伪编号：</td>
+							<td>4b8d20192388075fb
+							</td>
+						</tr>
+						<tr>
+							<td style="text-align: right;">报告文号：</td>
+							<td>中路华蒙综审（2019）第138号</td>
+						</tr>
+
+						<tr>
+							<td style="text-align: right;">报告日期：</td>
+							<td>2019-12-18</td>
+						</tr>
+						<tr>
+						<td style="text-align: right;font-size:15px;">报备日期：</td>
+						<td>2019-12-18</td>
+					    </tr>
+						<tr>
+							<td style="text-align: right;">事务所名称：</td>
+							<td>北京中路华会计师事务所有限责任公司内蒙古会计师事务所</td>
+						</tr>
+
+						<tr>
+							<td style="text-align: right;">签名注师一：</td>
+							<td>童俊霞</td>
+						</tr>
+						<tr>
+							<td style="text-align: right;">签名注师二：</td>
+							<td>李瑞娟</td>
+						</tr>
+						<tr>
+							<td style="text-align: right;">报备状态：</td>
+							<td> 
+							报备完成
+							</td>
+						</tr>
+					</tbody></table>
+					<hr>
+
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div style="color:#666;font-size:12px;text-align: left;margin:0 10px;">请核对以上信息是否与报告防伪页信息一致。点击以下网址直接显示报告防伪页，请核对信息是否一致，并核对网址是否为内蒙古注册会计师协会网址：<a href="javascript:location.reload();">http://zxhygl.nmgcpa.org.cn</a>。 防伪页网址：<a href="javascript:location.reload();">http://www.nmgcpa.org.cn</a></div>
+					<hr>
+				</td>
+			</tr>
+			<tr>
+				<td><div style="text-align: center;font-size:14px;">
+						<strong>内蒙古注册会计师协会 版权所有</strong>
+					</div></td>
+			</tr>
+		</tbody></table>
+	</div>
+	
+
+<script src="./防伪报备查询_files/jquery-1.10.2.min.js.下载"></script>
+<script src="./防伪报备查询_files/layui.all.js.下载"></script>
+<script>
+	function phone(value) {
+		var reg = /^((\d{3,4})-)(\d{7,8})(-(\d{3,}))?$/;
+		var re = new RegExp(reg);
+		if (re.test(value)) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	function isMobile(value) {
+		var reg = /^(((16[0-9]{1})|(13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1})|(17[0-9]{1})|(14[0-9]{1})|(19[0-9]{1}))+\d{8})$/;
+		var re = new RegExp(reg);
+		if (re.test(value)) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	function isEmail(value) {
+		var reg = /^([\.a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(\.[a-zA-Z0-9_-])+/;
+		var re = new RegExp(reg);
+		if (re.test(value)) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+</script>
+	<script src="./防伪报备查询_files/jQuery.print.js.下载"></script>
+
+	<script>
+		;
+		!function() {
+			var layer = layui.layer, form = layui.form, $ = layui.jquery;
+			$('#print').on('click', function() {
+				jQuery('#baoBei').print();
+				layer.msg('正在准备打印预览...', {
+					icon : 16,
+					shade : 0.01
+				});
+			});
+			form.on('submit(search)', function() {
+				layer.load();
+				layer.msg('正在查询...', {
+					icon : 16,
+					shade : 0.01
+				});
+			});
+		}();
+	</script>
+
+
+</body></html>
